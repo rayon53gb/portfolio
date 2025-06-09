@@ -233,6 +233,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
+  marin-bottom: 30px;
   perspective: 1000px; /* profondeur pour l'effet 3D */
 }
 
