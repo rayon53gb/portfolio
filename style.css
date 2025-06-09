@@ -1,89 +1,80 @@
-/* Style général */
+/* Police et base */
 body {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #f9f9f9;
-    background-image: url(Images/coucher_soleil.jpg);
-    background-size: cover;
-    background-position: center;
-    color: #333;
-    padding-top: 70px; /* espace pour la navbar fixe */
-  }
-  
-  /* Navbar */
-  .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #27384c;
-    color: white;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    z-index: 1000;
-  }
-  
-  .nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
-    flex-wrap: wrap;
-  }
-  
-  .nav-title {
-    font-weight: bold;
-  }
-  
-  .nav-links {
-    display: flex;
-    gap: 15px;
-  }
-  
-  .nav-btn {
-    text-decoration: none;
-    color: white;
-    padding: 8px 16px;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-  }
-  
-  .nav-btn:hover {
-    background-color: #005f99;
-  }
-  
-  /* Section photo */
-  .photo {
-    text-align: center;
-    margin: 40px 0 20px;
-  }
-  
-  .photo img {
-    width: 200px;
-    height: auto;
-    border-radius: 100px;
-    /*border: 3px solid #27384c;*/
-  }
-  
-  /* Présentation */
-  .presentation {
-    text-align: center;
-    padding: 0 20px;
-    color: white;
-    margin-bottom: 10em;
-  }
-  
-  .presentation h1 {
-    margin-bottom: 10px;
-  }
-  
-  /* Pied de page */
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 15px 0;
-    margin-top: 40px;
-  }
-/* Section À propos */
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f9f9f9;
+  background-image: url(Images/coucher_soleil.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #333;
+  padding-top: 70px; /* espace pour la navbar fixe */
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #27384c;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  flex-wrap: wrap;
+}
+
+.nav-title {
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-btn {
+  text-decoration: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav-btn:hover {
+  background-color: #005f99;
+}
+
+/* Section photo */
+.photo {
+  text-align: center;
+  margin: 40px 0 20px;
+}
+
+.photo img {
+  width: 200px;
+  height: auto;
+  border-radius: 100px;
+}
+
+/* Présentation */
+.presentation {
+  text-align: center;
+  padding: 0 20px;
+  color: white;
+  margin-bottom: 10em;
+}
+
+.presentation h1 {
+  margin-bottom: 10px;
+}
+
+/* À propos */
 .a-propos {
   max-width: 800px;
   margin: 40px auto;
@@ -96,48 +87,18 @@ body {
   color: #27384c;
 }
 
-  
-  .a-propos h2 {
-    margin-bottom: 15px;
-    color: #27384c;
-  }
-  
-  .a-propos p {
-    font-size: 1.1em;
-    line-height: 1.6;
-  }
-/* Section CV */
-.cv {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 0 20px;
-    text-align: center;
-  }
-  
-  .cv h2 {
-    margin-bottom: 15px;
-    color: #27384c;
-  }
-  
-  .cv-apercu {
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
-  
-  .btn-telecharger {
-    display: inline-block;
-    background-color: #27384c;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn-telecharger:hover {
-    background-color: #27384c;
-  }
-  .cursus {
+.a-propos h2 {
+  margin-bottom: 15px;
+  color: #27384c;
+}
+
+.a-propos p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* Cursus */
+.cursus {
   max-width: 800px;
   margin: 40px auto;
   padding: 0 20px;
@@ -185,6 +146,48 @@ body {
   color: #555;
 }
 
+/* CV */
+.cv {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.cv h2 {
+  margin-bottom: 15px;
+  color: #27384c;
+}
+
+.cv-apercu {
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.btn-telecharger {
+  display: inline-block;
+  background-color: #27384c;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-telecharger:hover {
+  background-color: #005f99;
+}
+
+/* Pied de page */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+
+/* Compétences */
 .competences {
   max-width: 1200px;
   margin: 60px auto;
@@ -200,17 +203,19 @@ body {
 
 .competence-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  padding: 0 10px;
 }
 
 .competence-card {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.95);
   border: 2px solid #27384c;
   border-radius: 12px;
   padding: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease;
+  margin-bottom: 20px;
 }
 
 .competence-card:hover {
@@ -228,20 +233,3 @@ body {
   font-size: 1em;
   color: #555;
 }
-
-.competence-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 40px;
-  perspective: 1000px; 
-}
-
-.competence-card {
-  width: 100%;
-  height: 250px;
-  cursor: pointer;
-  perspective: 1000px;
-}
-
-
-
