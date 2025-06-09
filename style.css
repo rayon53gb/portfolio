@@ -209,6 +209,7 @@ body {
   border: 2px solid #27384c;
   border-radius: 12px;
   padding: 20px;
+  margin-right: 10em;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease;
 }
@@ -240,7 +241,6 @@ body {
   width: 100%;
   height: 250px;
   cursor: pointer;
-  padding: 2em;
   perspective: 1000px;
 }
 
