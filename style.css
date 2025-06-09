@@ -156,7 +156,7 @@ body {
 
 .cv h2 {
   margin-bottom: 15px;
-  color: #27384c;
+  color: white;
 }
 
 .cv-apercu {
@@ -233,4 +233,7 @@ footer {
 .competence-card p {
   font-size: 1em;
   color: #555;
+}
+.competence-card img {
+  width: 90%;
 }
