@@ -233,7 +233,6 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
-  padding: 2em
   perspective: 1000px; /* profondeur pour l'effet 3D */
 }
 
@@ -241,6 +240,7 @@ body {
   width: 100%;
   height: 250px;
   cursor: pointer;
+  padding: 2em;
   perspective: 1000px;
 }
 
